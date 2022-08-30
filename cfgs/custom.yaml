@@ -1,0 +1,29 @@
+use_half: False
+
+work_dir: ./results/your_task_name/
+data_path: ./results/your_task_name/lmdb/  # path/to/saved/lmdb
+data_meta: ./results/your_task_name/meta/train.json  #meta/train.json
+content_reference_json: ./meta/cr_mapping.json
+content_font: "kaiti_xiantu"
+
+input_size: 128
+num_heads: 8
+kshot: 3
+
+batch_size: 32
+n_workers: 6
+iter: 500000
+g_lr: 2e-4
+d_lr: 4e-4 
+step_size: 10000
+gamma: 0.95
+overwrite: False
+adam_betas: [0.0, 0.9]
+
+cv_n_unis: 15 # 30
+cv_n_fonts: 9 # 10
+
+print_freq: 1000 
+val_freq: 10000 
+save_freq: 50000 
+tb_freq: 10000
