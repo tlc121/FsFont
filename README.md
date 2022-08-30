@@ -96,7 +96,7 @@ Our code is modified based on the [LFFont](https://github.com/clovaai/lffont).
 } 
 ```
 
-## Concat  
+## Contact  
 For any questions, please file an issue or contact me `tanglicheng@baidu.com`
     
     
