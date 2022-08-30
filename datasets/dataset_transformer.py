@@ -70,7 +70,7 @@ class CombTrainDataset(Dataset):
             if style_imgs is None:
                 continue
                 
-            #添加trg_imgs
+            #add trg_imgs
             trg_imgs = paddle.concat([self.env_get(self.env, font_name, uni, self.transform)
                                   for uni in trg_unis])
             
