@@ -10,7 +10,7 @@ Paper Link: [arxiv](https://arxiv.org/abs/2205.09965) | [Bibtex](#1)
 >torch >= 1.10.0 (for grid plot)  
 >torchvision >= 0.11.0  (for grid plot)  
 >sconf >= 0.2.3  
->lmdb >= 
+>lmdb >= 1.2.1  
 
 
 # How to start
