@@ -30,7 +30,7 @@ You also need to split all characters into train characters and val characters w
 > val_unis: \['8E21', ...]
 
 ### 2. Content-Reference mapping  
-It is a dict and elements in dict also need to be converted into unicode format. Please assure keys of CR mapping contain both of `train_unis` and `val_unis`.     
+It is a dict you have to create by yourself before start. Elements in dict also need to be converted into unicode format. Please assure keys of CR mapping contain both of `train_unis` and `val_unis`.     
 > {content1: \[ref1, ref2, ref3, ...],&#8195;content2: \[ref1, ref2, ref3, ...],&#8195;...}  
 
 example(in utf-8 format):  
